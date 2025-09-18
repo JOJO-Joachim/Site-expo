@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+        <link href="../CSS/edit.css" type="text/css" rel="stylesheet" />
+    <title>Accueil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <navbar>
+        <section class="nav">
+        <img src="../assets/logo.png" alt="Logo" class="logo">
+        <section class="grid">
+    <button onclick="location.href='home.html'">Accueil</button>
+    <button onclick="location.href='about.html'">À propos</button>
+    <button onclick="location.href=''">Contact</button>
+        </section>
+                <div class="droite">
+                      <div class="tag">Admin</div>
+                      <img src="../assets/jojo.png"  alt="Profile" class="profile">
+                </div>
+            </section>
+           
+    </navbar>
+    <div class="tableau">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produit</th>
+                        <th>Description du produit</th>
+                        <th>Prix du produit</th>
+                        <th>Date de mise en vente</th>
+                        <th>Quantité en stock</th>
+                        <th>Proprietaire</th>
+                        <th>Catégorie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Stylo bleu</td>
+                        <td>Stylo à bille, corps plastique</td>
+                        <td>1,20 €</td>
+                        <td>12/09/2025</td>
+                        <td>150</td>
+                        <td>Joachim</td>
+                        <td>Fourniture</td>
+                    </tr>
+                    <tr>
+                        <td>Clé USB 32Go</td>
+                        <td>Clé USB rapide, métal</td>
+                        <td>8,99 €</td>
+                        <td>01/08/2025</td>
+                        <td>40</td>
+                        <td>Sarah</td>
+                        <td>Informatique</td>
+                    </tr>
+                    <tr>
+                        <td>Cahier A4</td>
+                        <td>Cahier 96 pages, grands carreaux</td>
+                        <td>2,50 €</td>
+                        <td>05/07/2025</td>
+                        <td>80</td>
+                        <td>Lucas</td>
+                        <td>Papeterie</td>
+                    </tr>
+                    <tr>
+                        <td>Calculatrice</td>
+                        <td>Calculatrice scientifique, solaire</td>
+                        <td>14,90 €</td>
+                        <td>22/06/2025</td>
+                        <td>25</td>
+                        <td>Emma</td>
+                        <td>Informatique</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>  
+
+            <section class="edit">
+                <button class="button_ajouter" onclick="location.href='null'"> <svg class="add" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+ Ajouter un produit</button>
+                <button class="button_edit" onclick="location.href='null'"> <svg class="edits" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+</svg>
+ Modifier un produit</button>
+                <button class="button_delete" onclick="location.href='null'"> <svg class="deletes" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+ Supprimer</button>
+            </section>
+</body>
+</html>

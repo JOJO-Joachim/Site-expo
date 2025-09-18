@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #0033ff 0%,
+    #0600ab 65%,
+    #00033D 100%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NavBar */
+.nav {
+    background: rgba(34, 29, 29, 0.35);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    justify-content: space-between;
+    display: flex;
+    height: 60px;
+}
+
+.grid {
+justify-content: center;
+display: flex;
+align-items: center;
+height: 60px;
+gap: 30px;
+}
+.grid button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+    justify-content: left;
+    padding: 10px;
+}
+.tag{
+    color: white;
+    font-size: 16px;
+    background: rgba(34, 29, 29, 0.35);
+    border: 1.5px solid #7226ff;
+    border-radius: 12px;
+    padding: 4px 14px;
+    font-weight: 600;
+
+}
+.profile {
+    height: 40px;
+    border-radius: 100%;
+    justify-content: right;
+    padding: 10px;
+}
+.droite {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* hello */
+.hi{
+    color: rgb(238, 223, 223);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+}
+/* Tableau */
+.tableau {
+    display: flex;
+    justify-content: center;
+}
+ table {
+    width: 800px;
+    margin-top: 100px;
+    border-collapse: collapse;
+    font-size: 18px;
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+ }
+ th, td {
+    padding: 16px 24px;
+    text-align: center;
+ }
+ thead th {
+    background-color: #08697f;
+    color: white;
+    width: 25%;
+ }
+ tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+ }
+    tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+ }
+
+.stock{
+    display: flex;
+    justify-content: right;
+    margin: 100px;
+}
+.button_stock {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #7226ff;
+    background-color: rosybrown;
+    cursor: pointer;
+}
